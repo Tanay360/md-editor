@@ -1,0 +1,45 @@
+{
+  "name": "md-editor",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev --port 5000",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@types/cookie": "^0.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "svelte": "^3.46.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.10.1",
+    "tslib": "^2.3.1",
+    "typescript": "~4.5.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.5.0",
+    "@lukeed/uuid": "^2.0.0",
+    "@mdi/js": "^6.5.95",
+    "@sveltejs/adapter-vercel": "^1.0.0-next.45",
+    "cookie": "^0.4.1",
+    "dexie": "^3.2.1",
+    "emitter": "^0.0.5",
+    "events": "^3.3.0",
+    "highlight.js": "^11.4.0",
+    "html-pdf-node": "^1.0.8",
+    "markdown-it": "^12.3.2",
+    "node-sass": "^7.0.1",
+    "number-to-words": "^1.2.4",
+    "observable-slim": "^0.1.5",
+    "svelte-materialify": "^0.3.11"
+  }
+}

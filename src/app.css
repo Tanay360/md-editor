@@ -1,0 +1,28 @@
+body, html {
+	height: 100%;	
+}
+
+body > div:first-child > div:first-child, body > div:first-child, body > div:first-child > div:first-child > div:first-child {
+	height: 100%;
+	width: 100%;
+}
+
+.dialog-box {
+	min-width: 80%;
+	min-height: 70%;
+}
+
+.fab {
+	position: fixed !important;
+	right: 20px !important;
+	bottom: 20px !important;
+}
+
+
+.br-8 {
+	border-radius: 26px !important;
+}
+
+.center-text {
+	text-align: center;
+}

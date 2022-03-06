@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-	import { Tooltip, AppBar, Button, Icon, Menu, ListItem, MaterialApp, ProgressCircular, Card, Col, CardTitle, CardSubtitle, TextField } from 'svelte-materialify';
+	import { Tooltip, AppBar, Button, Icon, Menu, ListItem, MaterialApp, ProgressCircular, Card, Col, CardTitle, CardSubtitle, TextField, CardText } from 'svelte-materialify';
 	import { onMount } from 'svelte';
 	import { browser } from '$app/env';
 	import { MarkdownDatabase } from "$lib/db";
@@ -86,8 +86,8 @@
 			<Card hover style="width: 100%; text-align: left;" flat>
 				<Button tile style="width: 100%; height: unset; padding: 0; text-align: left;" on:click={() => openItem(item.id)}>
 					<Col>
-						<CardTitle style="text-transform: none;">Item {item.id}</CardTitle>
-						<CardSubtitle style="text-transform: none;">{htmlToText(item.data)}</CardSubtitle>
+						<CardTitle style="text-transform: none; max-width: 80vw;">Item {item.id}</CardTitle>
+						<CardSubtitle style="text-transform: none; max-width: 80vw;">{htmlToText(item.data)}</CardSubtitle>
 					</Col>
 				</Button>
 			</Card>				
